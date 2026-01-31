@@ -36,7 +36,7 @@
       <div class="flex gap-4 pt-[20px] items-center" id="responseButtons">
         <button id="yesButton"
           class="bounce2 inline-flex items-center justify-center whitespace-nowrap rounded-md text-[20px] font-medium disabled:pointer-events-none disabled:opacity-50 hover:bg-green-400 min-h-12 min-w-[75px] px-4 py-2 bg-green-500 text-white transition">
-          Yessss 💓
+          Yes💓
         </button>
         <button id="noButton"
           class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-[20px] font-medium transition disabled:pointer-events-none disabled:opacity-50 hover:bg-red-700 h-12 min-w-[75px] w-auto px-4 py-2 bg-red-500 text-white">
@@ -59,13 +59,13 @@
     let buttonWidth = 80;
     let fontSize = 20; // Starting font size in pixels
     const imagePaths = [
-      "./images/image1.gif",
-      "./images/image2.gif",
-      "./images/image3.gif",
-      "./images/image4.gif",
-      "./images/image5.gif",
-      "./images/image6.gif",
-      "./images/image7.gif"
+      "./images/willyoubemyvalentine.gif",
+      "./images/sayyes.gif",
+      "./images/sayyesplease.gif",
+      "./images/whynot.gif",
+      "./images/whynotyes.gif",
+      "./images/sayyesorelse.gif",
+      "./images/yayy.gif"
     ];
   
     noButton.addEventListener('click', function() {
@@ -85,7 +85,7 @@
     });
   
     yesButton.addEventListener('click', () => {
-      imageDisplay.src = './images/image7.gif'; // Change to image7.gif
+      imageDisplay.src = './images/yayy.gif'; // Change to yayy.gif
       valentineQuestion.textContent = "I know you love me! Happyy Valentine's Day 😘"; // Change the question text
       responseButtons.style.display = 'none'; // Hide both buttons
       confetti(); // Trigger confetti animation
@@ -94,4 +94,5 @@
 </body>
 
 </html>
+
 
